@@ -25,18 +25,17 @@ function replaceNumbers(input) {
   console.log(list);
 }
 
-function appendList(list){
-
-}
 
 // Frontend
 $(document).ready(function() {
   $("form").submit(function(event){
+    event.preventDefault();
     inputNumber = parseInt($("#inputNumber").val());
     replaceNumbers(inputNumber);
+
+    list.forEach(function(list) {
     $("ul#list").append("<li>" + list + "</li>");
     // $("#result").text(outputArray.join("").toString());
-    event.preventDefault();
-
+    });
   });
 });
