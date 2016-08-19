@@ -1,0 +1,17 @@
+body {
+  background: url(../img/back-ground1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100;
+  font-family: 'Josefin Slab', serif;
+}
+
+h1, h3 {
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+}
+
+.container{
+  color: white;
+}
